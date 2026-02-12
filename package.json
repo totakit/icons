@@ -1,0 +1,79 @@
+{
+  "name": "@totakit/icons",
+  "version": "0.0.0",
+  "description": "1,000+ open-source icons with 6 styles — outline, solid, duotone, thin, bold, micro",
+  "author": "totakit <hello@totakit.com> (https://totakit.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/totakit/icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/totakit/icons/issues"
+  },
+  "homepage": "https://icons.totakit.com",
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "icon-library",
+    "duotone",
+    "outline",
+    "solid",
+    "totakit",
+    "design-system"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./outline": {
+      "types": "./dist/outline/index.d.ts",
+      "import": "./dist/outline/index.js"
+    },
+    "./solid": {
+      "types": "./dist/solid/index.d.ts",
+      "import": "./dist/solid/index.js"
+    },
+    "./duotone": {
+      "types": "./dist/duotone/index.d.ts",
+      "import": "./dist/duotone/index.js"
+    },
+    "./thin": {
+      "types": "./dist/thin/index.d.ts",
+      "import": "./dist/thin/index.js"
+    },
+    "./bold": {
+      "types": "./dist/bold/index.d.ts",
+      "import": "./dist/bold/index.js"
+    },
+    "./micro": {
+      "types": "./dist/micro/index.d.ts",
+      "import": "./dist/micro/index.js"
+    },
+    "./svg/*": "./dist/svg/*",
+    "./meta/*": "./dist/meta/*"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
