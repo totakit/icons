@@ -1,17 +1,17 @@
 {
   "name": "@totakit/icons",
   "version": "0.0.0",
-  "description": "1,000+ open-source icons with 6 styles — outline, solid, duotone, thin, bold, micro",
-  "author": "totakit <hello@totakit.com> (https://totakit.com)",
+  "description": "Open-source icons with optical precision — 6 styles, one definition",
+  "author": "totakit <hello@totakit.com>",
   "license": "MIT",
+  "homepage": "https://icons.totakit.com",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/totakit/icons.git"
+    "url": "git+https://github.com/totakit/icons.git"
   },
   "bugs": {
     "url": "https://github.com/totakit/icons/issues"
   },
-  "homepage": "https://icons.totakit.com",
   "keywords": [
     "icons",
     "svg",
@@ -21,7 +21,9 @@
     "outline",
     "solid",
     "totakit",
-    "design-system"
+    "design-system",
+    "pixel-hinting",
+    "optical-precision"
   ],
   "type": "module",
   "sideEffects": false,
@@ -57,7 +59,8 @@
       "import": "./dist/micro/index.js"
     },
     "./svg/*": "./dist/svg/*",
-    "./meta/*": "./dist/meta/*"
+    "./meta/*": "./dist/meta/*",
+    "./css/*": "./dist/css/*"
   },
   "files": [
     "dist",
@@ -65,6 +68,9 @@
     "README.md",
     "CHANGELOG.md"
   ],
+  "scripts": {
+    "clean": "rm -rf dist *.tsbuildinfo"
+  },
   "peerDependencies": {
     "react": ">=18"
   },
@@ -74,6 +80,6 @@
     }
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=18.0.0"
   }
 }
