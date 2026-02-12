@@ -6,19 +6,23 @@
 #   pull_request:
 #     branches: [main]
 #
+# permissions:
+#   contents: read
+#
 # jobs:
 #   validate:
+#     name: Validate
 #     runs-on: ubuntu-latest
 #     strategy:
 #       matrix:
 #         node-version: [18, 20, 22]
-#
 #     steps:
 #       - uses: actions/checkout@v4
 #
 #       - uses: actions/setup-node@v4
 #         with:
 #           node-version: ${{ matrix.node-version }}
+#           cache: npm
 #
 #       - name: Verify package structure
 #         run: |
@@ -26,3 +30,40 @@
 #           test -f LICENSE
 #           test -f README.md
 #           test -f CHANGELOG.md
+#           test -f SECURITY.md
+#           test -f CONTRIBUTING.md
+#
+#       - name: Validate package.json
+#         run: node -e "JSON.parse(require('fs').readFileSync('package.json','utf8'))"
+#
+#       - name: Validate exports map
+#         run: |
+#           node -e "
+#             const pkg = JSON.parse(require('fs').readFileSync('package.json','utf8'));
+#             const styles = ['outline','solid','duotone','thin','bold','micro'];
+#             for (const s of styles) {
+#               if (!pkg.exports['./' + s]) throw new Error('Missing export: ./' + s);
+#             }
+#             console.log('All style exports present');
+#           "
+#
+#   publish:
+#     name: Publish
+#     needs: validate
+#     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: read
+#       id-token: write
+#     steps:
+#       - uses: actions/checkout@v4
+#
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: 22
+#           registry-url: https://registry.npmjs.org
+#
+#       - name: Publish to npm
+#         run: npm publish --provenance
+#         env:
+#           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

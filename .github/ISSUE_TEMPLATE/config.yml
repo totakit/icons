@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions
+    url: https://github.com/orgs/totakit/discussions
+    about: Ask questions, share ideas, or get help from the community
+  - name: Security Vulnerability
+    url: https://github.com/totakit/icons/blob/main/SECURITY.md
+    about: Report security vulnerabilities privately
+  - name: Browse Icons
+    url: https://icons.totakit.com
+    about: Search and preview all available icons

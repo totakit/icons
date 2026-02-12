@@ -1,0 +1,79 @@
+name: Rendering Bug
+description: Report an icon that renders incorrectly
+title: "[Rendering]: "
+labels: ["bug", "rendering"]
+body:
+  - type: input
+    id: icon
+    attributes:
+      label: Icon name
+      placeholder: "e.g., arrow-right, check, plus"
+    validations:
+      required: true
+  - type: dropdown
+    id: style
+    attributes:
+      label: Style
+      options:
+        - Outline
+        - Solid
+        - Duotone
+        - Thin
+        - Bold
+        - Micro
+        - All styles
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: How are you using the icon?
+      options:
+        - React component
+        - Raw SVG import
+        - CDN URL
+        - Vue / Svelte / Web Component
+        - CSS background
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: size
+    attributes:
+      label: Size (px)
+      placeholder: "24"
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      description: Describe the rendering issue. Screenshots are very helpful.
+      placeholder: "The solid style renders with no visible stroke at 16px..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected rendering
+      description: What should it look like?
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Node.js (SSR)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: "0.1.0"
+    validations:
+      required: true

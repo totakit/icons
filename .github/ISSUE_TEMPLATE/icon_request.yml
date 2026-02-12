@@ -1,0 +1,50 @@
+name: Icon Request
+description: Request a new icon to be added to the library
+title: "[Icon]: "
+labels: ["icon-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Suggested name
+      description: kebab-case name for the icon
+      placeholder: "e.g., arrow-up-right, folder-open, bell-ring"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Arrows & Navigation
+        - Interface & Actions
+        - Communication
+        - Media & Files
+        - Data & Charts
+        - Development
+        - Commerce
+        - Social
+        - Weather & Nature
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does this icon represent? Where would it be used?
+      placeholder: "A folder icon in an open state, used in file managers and navigation trees."
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Visual reference
+      description: Link to similar icons in other libraries, or attach a sketch.
+      placeholder: "Similar to Lucide's folder-open or Heroicons' folder-open"
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case
+      description: Where will you use this icon?
+      placeholder: "File browser component in a dashboard application"

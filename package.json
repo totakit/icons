@@ -12,22 +12,42 @@
   "bugs": {
     "url": "https://github.com/totakit/icons/issues"
   },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/nkr-ops"
+    },
+    {
+      "type": "custom",
+      "url": "https://totakit.com/pricing"
+    }
+  ],
   "keywords": [
     "icons",
     "svg",
     "react",
+    "react-icons",
     "icon-library",
+    "icon-set",
+    "svg-icons",
     "duotone",
     "outline",
     "solid",
+    "thin",
+    "bold",
+    "micro",
     "totakit",
     "design-system",
+    "ui-components",
     "pixel-hinting",
-    "optical-precision"
+    "optical-precision",
+    "tree-shakeable",
+    "typescript"
   ],
   "type": "module",
   "sideEffects": false,
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
@@ -38,29 +58,54 @@
       "types": "./dist/outline/index.d.ts",
       "import": "./dist/outline/index.js"
     },
+    "./outline/*": {
+      "types": "./dist/outline/*.d.ts",
+      "import": "./dist/outline/*.js"
+    },
     "./solid": {
       "types": "./dist/solid/index.d.ts",
       "import": "./dist/solid/index.js"
+    },
+    "./solid/*": {
+      "types": "./dist/solid/*.d.ts",
+      "import": "./dist/solid/*.js"
     },
     "./duotone": {
       "types": "./dist/duotone/index.d.ts",
       "import": "./dist/duotone/index.js"
     },
+    "./duotone/*": {
+      "types": "./dist/duotone/*.d.ts",
+      "import": "./dist/duotone/*.js"
+    },
     "./thin": {
       "types": "./dist/thin/index.d.ts",
       "import": "./dist/thin/index.js"
+    },
+    "./thin/*": {
+      "types": "./dist/thin/*.d.ts",
+      "import": "./dist/thin/*.js"
     },
     "./bold": {
       "types": "./dist/bold/index.d.ts",
       "import": "./dist/bold/index.js"
     },
+    "./bold/*": {
+      "types": "./dist/bold/*.d.ts",
+      "import": "./dist/bold/*.js"
+    },
     "./micro": {
       "types": "./dist/micro/index.d.ts",
       "import": "./dist/micro/index.js"
     },
+    "./micro/*": {
+      "types": "./dist/micro/*.d.ts",
+      "import": "./dist/micro/*.js"
+    },
     "./svg/*": "./dist/svg/*",
     "./meta/*": "./dist/meta/*",
-    "./css/*": "./dist/css/*"
+    "./css/*": "./dist/css/*",
+    "./package.json": "./package.json"
   },
   "files": [
     "dist",
@@ -69,7 +114,9 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "clean": "rm -rf dist *.tsbuildinfo"
+    "clean": "rm -rf dist *.tsbuildinfo",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run clean"
   },
   "peerDependencies": {
     "react": ">=18"
@@ -78,6 +125,14 @@
     "react": {
       "optional": true
     }
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+    "registry": "https://registry.npmjs.org"
   },
   "engines": {
     "node": ">=18.0.0"
