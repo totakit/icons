@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ui",
+    "label": "Ui",
+    "count": 31,
+    "examples": [
+      "alert-circle",
+      "ban",
+      "bookmark",
+      "check",
+      "check-circle"
+    ]
+  },
+  {
+    "name": "arrows",
+    "label": "Arrows",
+    "count": 12,
+    "examples": [
+      "arrow-down",
+      "arrow-down-left",
+      "arrow-down-right",
+      "arrow-left",
+      "arrow-right"
+    ]
+  },
+  {
+    "name": "numbers",
+    "label": "Numbers",
+    "count": 10,
+    "examples": [
+      "number-0",
+      "number-1",
+      "number-2",
+      "number-3",
+      "number-4"
+    ]
+  }
+]

@@ -1,0 +1,1115 @@
+[
+  {
+    "name": "alert-circle",
+    "displayName": "Alert Circle",
+    "category": "ui",
+    "tags": [
+      "alert",
+      "circle",
+      "warning",
+      "caution",
+      "exclamation",
+      "attention",
+      "danger",
+      "notice"
+    ],
+    "aliases": [
+      "warning",
+      "caution",
+      "exclamation"
+    ],
+    "description": "An exclamation mark inside a circle indicating warning."
+  },
+  {
+    "name": "arrow-down",
+    "displayName": "Arrow Down",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "down",
+      "descend",
+      "bottom",
+      "direction",
+      "south",
+      "drop",
+      "download"
+    ],
+    "aliases": [
+      "down",
+      "descend",
+      "down-arrow"
+    ],
+    "description": "An arrow pointing down, indicating downward direction or descending."
+  },
+  {
+    "name": "arrow-down-left",
+    "displayName": "Arrow Down Left",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "down-left",
+      "diagonal",
+      "southwest",
+      "collapse",
+      "descend",
+      "retreat",
+      "shrink"
+    ],
+    "aliases": [
+      "southwest",
+      "diagonal-left-down",
+      "collapse-left"
+    ],
+    "description": "A diagonal arrow pointing down-left."
+  },
+  {
+    "name": "arrow-down-right",
+    "displayName": "Arrow Down Right",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "down-right",
+      "diagonal",
+      "southeast",
+      "expand",
+      "descend",
+      "forward",
+      "drop"
+    ],
+    "aliases": [
+      "southeast",
+      "diagonal-down",
+      "expand-right"
+    ],
+    "description": "A diagonal arrow pointing down-right."
+  },
+  {
+    "name": "arrow-left",
+    "displayName": "Arrow Left",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "previous",
+      "direction",
+      "west",
+      "return",
+      "navigate"
+    ],
+    "aliases": [
+      "back",
+      "previous",
+      "left-arrow"
+    ],
+    "description": "An arrow pointing left, indicating backward direction or previous action."
+  },
+  {
+    "name": "arrow-right",
+    "displayName": "Arrow Right",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "next",
+      "direction",
+      "east",
+      "proceed",
+      "continue"
+    ],
+    "aliases": [
+      "forward",
+      "next",
+      "right-arrow"
+    ],
+    "description": "An arrow pointing right, indicating forward direction or next action."
+  },
+  {
+    "name": "arrow-up",
+    "displayName": "Arrow Up",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "up",
+      "ascend",
+      "top",
+      "direction",
+      "north",
+      "rise",
+      "upload"
+    ],
+    "aliases": [
+      "up",
+      "ascend",
+      "up-arrow"
+    ],
+    "description": "An arrow pointing up, indicating upward direction or ascending."
+  },
+  {
+    "name": "arrow-up-left",
+    "displayName": "Arrow Up Left",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "up-left",
+      "diagonal",
+      "back",
+      "northwest",
+      "return",
+      "origin",
+      "retreat"
+    ],
+    "aliases": [
+      "northwest",
+      "diagonal-left",
+      "back-up"
+    ],
+    "description": "A diagonal arrow pointing up-left."
+  },
+  {
+    "name": "arrow-up-right",
+    "displayName": "Arrow Up Right",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "up-right",
+      "diagonal",
+      "external",
+      "link",
+      "northeast",
+      "expand",
+      "open"
+    ],
+    "aliases": [
+      "external",
+      "diagonal",
+      "northeast"
+    ],
+    "description": "A diagonal arrow pointing up-right, indicating external link or expansion."
+  },
+  {
+    "name": "ban",
+    "displayName": "Ban",
+    "category": "ui",
+    "tags": [
+      "ban",
+      "block",
+      "prohibit",
+      "forbidden",
+      "restrict",
+      "deny",
+      "stop",
+      "no"
+    ],
+    "aliases": [
+      "block",
+      "prohibit",
+      "forbidden"
+    ],
+    "description": "A circle with a diagonal line indicating prohibited or blocked."
+  },
+  {
+    "name": "bookmark",
+    "displayName": "Bookmark",
+    "category": "ui",
+    "tags": [
+      "bookmark",
+      "save",
+      "flag",
+      "mark",
+      "ribbon",
+      "reading",
+      "favorite",
+      "pin"
+    ],
+    "aliases": [
+      "save",
+      "flag",
+      "mark"
+    ],
+    "description": "A bookmark flag indicating saved or bookmarked content."
+  },
+  {
+    "name": "check",
+    "displayName": "Check",
+    "category": "ui",
+    "tags": [
+      "check",
+      "checkmark",
+      "tick",
+      "done",
+      "complete",
+      "success",
+      "confirm",
+      "approve"
+    ],
+    "aliases": [
+      "tick",
+      "done",
+      "checkmark"
+    ],
+    "description": "A checkmark indicating success, completion, or confirmation."
+  },
+  {
+    "name": "check-circle",
+    "displayName": "Check Circle",
+    "category": "ui",
+    "tags": [
+      "check",
+      "circle",
+      "success",
+      "confirmed",
+      "approved",
+      "verified",
+      "complete",
+      "done"
+    ],
+    "aliases": [
+      "success",
+      "confirmed",
+      "approved"
+    ],
+    "description": "A checkmark inside a circle indicating confirmed success."
+  },
+  {
+    "name": "chevron-down",
+    "displayName": "Chevron Down",
+    "category": "arrows",
+    "tags": [
+      "chevron",
+      "down",
+      "expand",
+      "dropdown",
+      "caret",
+      "descend",
+      "unfold",
+      "open"
+    ],
+    "aliases": [
+      "caret-down",
+      "angle-down",
+      "expand"
+    ],
+    "description": "A chevron pointing down, used for expand or dropdown indicators."
+  },
+  {
+    "name": "chevron-left",
+    "displayName": "Chevron Left",
+    "category": "arrows",
+    "tags": [
+      "chevron",
+      "left",
+      "back",
+      "collapse",
+      "caret",
+      "previous",
+      "navigate",
+      "return"
+    ],
+    "aliases": [
+      "caret-left",
+      "angle-left",
+      "back"
+    ],
+    "description": "A chevron pointing left, used for back navigation."
+  },
+  {
+    "name": "chevron-right",
+    "displayName": "Chevron Right",
+    "category": "arrows",
+    "tags": [
+      "chevron",
+      "right",
+      "next",
+      "expand",
+      "caret",
+      "forward",
+      "navigate",
+      "breadcrumb"
+    ],
+    "aliases": [
+      "caret-right",
+      "angle-right",
+      "next"
+    ],
+    "description": "A chevron pointing right, used for navigation and expandable sections."
+  },
+  {
+    "name": "chevron-up",
+    "displayName": "Chevron Up",
+    "category": "arrows",
+    "tags": [
+      "chevron",
+      "up",
+      "collapse",
+      "scroll-top",
+      "caret",
+      "ascend",
+      "fold",
+      "minimize"
+    ],
+    "aliases": [
+      "caret-up",
+      "angle-up",
+      "collapse"
+    ],
+    "description": "A chevron pointing up, used for collapse or scroll-to-top."
+  },
+  {
+    "name": "copy",
+    "displayName": "Copy",
+    "category": "ui",
+    "tags": [
+      "copy",
+      "clipboard",
+      "duplicate",
+      "paste",
+      "clone",
+      "document",
+      "replicate",
+      "stack"
+    ],
+    "aliases": [
+      "duplicate",
+      "clipboard",
+      "clone"
+    ],
+    "description": "Two overlapping rectangles indicating copy to clipboard."
+  },
+  {
+    "name": "download",
+    "displayName": "Download",
+    "category": "ui",
+    "tags": [
+      "download",
+      "save",
+      "export",
+      "get",
+      "fetch",
+      "receive",
+      "pull",
+      "store"
+    ],
+    "aliases": [
+      "save",
+      "export",
+      "get"
+    ],
+    "description": "A downward arrow with a base line indicating file download."
+  },
+  {
+    "name": "edit",
+    "displayName": "Edit",
+    "category": "ui",
+    "tags": [
+      "edit",
+      "pencil",
+      "write",
+      "modify",
+      "compose",
+      "update",
+      "change",
+      "author"
+    ],
+    "aliases": [
+      "pencil",
+      "write",
+      "modify"
+    ],
+    "description": "A pencil indicating edit or modify content."
+  },
+  {
+    "name": "external-link",
+    "displayName": "External Link",
+    "category": "ui",
+    "tags": [
+      "external",
+      "link",
+      "open",
+      "new-window",
+      "redirect",
+      "navigate",
+      "outbound",
+      "launch"
+    ],
+    "aliases": [
+      "open-external",
+      "new-window",
+      "redirect"
+    ],
+    "description": "An arrow pointing out of a box indicating opening in new window."
+  },
+  {
+    "name": "eye",
+    "displayName": "Eye",
+    "category": "ui",
+    "tags": [
+      "eye",
+      "view",
+      "visible",
+      "show",
+      "watch",
+      "observe",
+      "preview",
+      "display"
+    ],
+    "aliases": [
+      "view",
+      "visible",
+      "show"
+    ],
+    "description": "An eye indicating visibility, view, or show."
+  },
+  {
+    "name": "eye-off",
+    "displayName": "Eye Off",
+    "category": "ui",
+    "tags": [
+      "eye-off",
+      "hidden",
+      "invisible",
+      "hide",
+      "private",
+      "obscure",
+      "mask",
+      "conceal"
+    ],
+    "aliases": [
+      "hidden",
+      "invisible",
+      "hide"
+    ],
+    "description": "An eye with a diagonal line indicating hidden or invisible."
+  },
+  {
+    "name": "filter",
+    "displayName": "Filter",
+    "category": "ui",
+    "tags": [
+      "filter",
+      "funnel",
+      "sort",
+      "refine",
+      "narrow",
+      "sieve",
+      "strain",
+      "select"
+    ],
+    "aliases": [
+      "funnel",
+      "sort",
+      "refine"
+    ],
+    "description": "A funnel shape indicating filter or sort functionality."
+  },
+  {
+    "name": "heart",
+    "displayName": "Heart",
+    "category": "ui",
+    "tags": [
+      "heart",
+      "love",
+      "like",
+      "favorite",
+      "health",
+      "emotion",
+      "care",
+      "passion"
+    ],
+    "aliases": [
+      "love",
+      "like",
+      "favorite"
+    ],
+    "description": "A heart shape indicating like, favorite, or love."
+  },
+  {
+    "name": "home",
+    "displayName": "Home",
+    "category": "ui",
+    "tags": [
+      "home",
+      "house",
+      "main",
+      "start",
+      "landing",
+      "dashboard",
+      "index",
+      "root"
+    ],
+    "aliases": [
+      "house",
+      "main",
+      "homepage"
+    ],
+    "description": "A house indicating the home page or starting point."
+  },
+  {
+    "name": "info",
+    "displayName": "Info",
+    "category": "ui",
+    "tags": [
+      "info",
+      "information",
+      "about",
+      "details",
+      "help",
+      "tooltip",
+      "hint",
+      "guide"
+    ],
+    "aliases": [
+      "information",
+      "about",
+      "details"
+    ],
+    "description": "A lowercase i inside a circle indicating information."
+  },
+  {
+    "name": "link",
+    "displayName": "Link",
+    "category": "ui",
+    "tags": [
+      "link",
+      "chain",
+      "url",
+      "hyperlink",
+      "connect",
+      "attach",
+      "reference",
+      "anchor"
+    ],
+    "aliases": [
+      "chain",
+      "url",
+      "hyperlink"
+    ],
+    "description": "Two interlocking chain links indicating a hyperlink or URL."
+  },
+  {
+    "name": "menu",
+    "displayName": "Menu",
+    "category": "ui",
+    "tags": [
+      "menu",
+      "hamburger",
+      "navigation",
+      "sidebar",
+      "toggle",
+      "bars",
+      "nav",
+      "mobile"
+    ],
+    "aliases": [
+      "hamburger",
+      "nav",
+      "bars"
+    ],
+    "description": "Three horizontal lines indicating a hamburger menu."
+  },
+  {
+    "name": "minus",
+    "displayName": "Minus",
+    "category": "ui",
+    "tags": [
+      "minus",
+      "subtract",
+      "remove",
+      "decrease",
+      "collapse",
+      "reduce",
+      "negative",
+      "less"
+    ],
+    "aliases": [
+      "subtract",
+      "remove",
+      "dash"
+    ],
+    "description": "A minus sign indicating remove, subtract, or collapse."
+  },
+  {
+    "name": "more-horizontal",
+    "displayName": "More Horizontal",
+    "category": "ui",
+    "tags": [
+      "more",
+      "horizontal",
+      "dots",
+      "ellipsis",
+      "options",
+      "overflow",
+      "context",
+      "actions"
+    ],
+    "aliases": [
+      "ellipsis",
+      "dots",
+      "options"
+    ],
+    "description": "Three horizontal dots indicating additional options."
+  },
+  {
+    "name": "more-vertical",
+    "displayName": "More Vertical",
+    "category": "ui",
+    "tags": [
+      "more",
+      "vertical",
+      "dots",
+      "kebab",
+      "options",
+      "overflow",
+      "context",
+      "actions"
+    ],
+    "aliases": [
+      "kebab",
+      "dots-vertical",
+      "options-vertical"
+    ],
+    "description": "Three vertical dots indicating additional options."
+  },
+  {
+    "name": "number-0",
+    "displayName": "Number 0",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "zero",
+      "0",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "indicator"
+    ],
+    "aliases": [
+      "zero",
+      "digit-0",
+      "num-0"
+    ],
+    "description": "The digit zero inside a circle for step indicators and badges."
+  },
+  {
+    "name": "number-1",
+    "displayName": "Number 1",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "one",
+      "1",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "first"
+    ],
+    "aliases": [
+      "one",
+      "digit-1",
+      "num-1"
+    ],
+    "description": "The digit one inside a circle for step indicators and badges."
+  },
+  {
+    "name": "number-2",
+    "displayName": "Number 2",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "two",
+      "2",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "second"
+    ],
+    "aliases": [
+      "two",
+      "digit-2",
+      "num-2"
+    ],
+    "description": "The digit two inside a circle for step indicators and badges."
+  },
+  {
+    "name": "number-3",
+    "displayName": "Number 3",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "three",
+      "3",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "third"
+    ],
+    "aliases": [
+      "three",
+      "digit-3",
+      "num-3"
+    ],
+    "description": "The digit three inside a circle for step indicators and badges."
+  },
+  {
+    "name": "number-4",
+    "displayName": "Number 4",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "four",
+      "4",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "fourth"
+    ],
+    "aliases": [
+      "four",
+      "digit-4",
+      "num-4"
+    ],
+    "description": "The digit four inside a circle for step indicators and badges."
+  },
+  {
+    "name": "number-5",
+    "displayName": "Number 5",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "five",
+      "5",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "fifth"
+    ],
+    "aliases": [
+      "five",
+      "digit-5",
+      "num-5"
+    ],
+    "description": "The digit five inside a circle for step indicators and badges."
+  },
+  {
+    "name": "number-6",
+    "displayName": "Number 6",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "six",
+      "6",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "sixth"
+    ],
+    "aliases": [
+      "six",
+      "digit-6",
+      "num-6"
+    ],
+    "description": "The digit six inside a circle for step indicators and badges."
+  },
+  {
+    "name": "number-7",
+    "displayName": "Number 7",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "seven",
+      "7",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "seventh"
+    ],
+    "aliases": [
+      "seven",
+      "digit-7",
+      "num-7"
+    ],
+    "description": "The digit seven inside a circle for step indicators and badges."
+  },
+  {
+    "name": "number-8",
+    "displayName": "Number 8",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "eight",
+      "8",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "eighth"
+    ],
+    "aliases": [
+      "eight",
+      "digit-8",
+      "num-8"
+    ],
+    "description": "The digit eight inside a circle for step indicators and badges."
+  },
+  {
+    "name": "number-9",
+    "displayName": "Number 9",
+    "category": "numbers",
+    "tags": [
+      "number",
+      "nine",
+      "9",
+      "digit",
+      "count",
+      "badge",
+      "step",
+      "ninth"
+    ],
+    "aliases": [
+      "nine",
+      "digit-9",
+      "num-9"
+    ],
+    "description": "The digit nine inside a circle for step indicators and badges."
+  },
+  {
+    "name": "plus",
+    "displayName": "Plus",
+    "category": "ui",
+    "tags": [
+      "plus",
+      "add",
+      "create",
+      "new",
+      "expand",
+      "increase",
+      "positive",
+      "more"
+    ],
+    "aliases": [
+      "add",
+      "create",
+      "new"
+    ],
+    "description": "A plus sign indicating add, create, or expand."
+  },
+  {
+    "name": "search",
+    "displayName": "Search",
+    "category": "ui",
+    "tags": [
+      "search",
+      "find",
+      "magnify",
+      "lookup",
+      "query",
+      "discover",
+      "explore",
+      "glass"
+    ],
+    "aliases": [
+      "find",
+      "magnifying-glass",
+      "lookup"
+    ],
+    "description": "A magnifying glass indicating search or find functionality."
+  },
+  {
+    "name": "settings",
+    "displayName": "Settings",
+    "category": "ui",
+    "tags": [
+      "settings",
+      "gear",
+      "preferences",
+      "config",
+      "options",
+      "cog",
+      "system",
+      "admin"
+    ],
+    "aliases": [
+      "gear",
+      "preferences",
+      "config"
+    ],
+    "description": "A gear indicating settings, preferences, or configuration."
+  },
+  {
+    "name": "share",
+    "displayName": "Share",
+    "category": "ui",
+    "tags": [
+      "share",
+      "send",
+      "distribute",
+      "social",
+      "forward",
+      "network",
+      "connect",
+      "broadcast"
+    ],
+    "aliases": [
+      "send",
+      "distribute",
+      "forward"
+    ],
+    "description": "A share icon with connected nodes indicating sharing content."
+  },
+  {
+    "name": "star",
+    "displayName": "Star",
+    "category": "ui",
+    "tags": [
+      "star",
+      "favorite",
+      "rating",
+      "bookmark",
+      "featured",
+      "rank",
+      "review",
+      "score"
+    ],
+    "aliases": [
+      "favorite",
+      "rating",
+      "starred"
+    ],
+    "description": "A five-pointed star indicating rating, favorite, or bookmark."
+  },
+  {
+    "name": "trash",
+    "displayName": "Trash",
+    "category": "ui",
+    "tags": [
+      "trash",
+      "delete",
+      "remove",
+      "bin",
+      "garbage",
+      "discard",
+      "destroy",
+      "recycle"
+    ],
+    "aliases": [
+      "delete",
+      "bin",
+      "remove"
+    ],
+    "description": "A trash can indicating delete or remove permanently."
+  },
+  {
+    "name": "upload",
+    "displayName": "Upload",
+    "category": "ui",
+    "tags": [
+      "upload",
+      "send",
+      "import",
+      "push",
+      "publish",
+      "submit",
+      "deploy",
+      "share"
+    ],
+    "aliases": [
+      "send",
+      "import",
+      "push"
+    ],
+    "description": "An upward arrow with a base line indicating file upload."
+  },
+  {
+    "name": "user",
+    "displayName": "User",
+    "category": "ui",
+    "tags": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "avatar",
+      "member",
+      "identity",
+      "human"
+    ],
+    "aliases": [
+      "person",
+      "account",
+      "profile"
+    ],
+    "description": "A person silhouette indicating user account or profile."
+  },
+  {
+    "name": "x",
+    "displayName": "X",
+    "category": "ui",
+    "tags": [
+      "close",
+      "dismiss",
+      "remove",
+      "cancel",
+      "delete",
+      "x",
+      "cross",
+      "clear"
+    ],
+    "aliases": [
+      "close",
+      "dismiss",
+      "cancel"
+    ],
+    "description": "An X mark indicating close, dismiss, cancel, or error."
+  },
+  {
+    "name": "x-circle",
+    "displayName": "X Circle",
+    "category": "ui",
+    "tags": [
+      "x",
+      "circle",
+      "error",
+      "reject",
+      "cancel",
+      "failed",
+      "denied",
+      "close"
+    ],
+    "aliases": [
+      "error",
+      "reject",
+      "cancel-circle"
+    ],
+    "description": "An X inside a circle indicating error or rejection."
+  },
+  {
+    "name": "zap",
+    "displayName": "Zap",
+    "category": "ui",
+    "tags": [
+      "zap",
+      "lightning",
+      "bolt",
+      "power",
+      "energy",
+      "flash",
+      "instant",
+      "electric"
+    ],
+    "aliases": [
+      "lightning",
+      "bolt",
+      "flash"
+    ],
+    "description": "A lightning bolt indicating instant action, power, or energy."
+  }
+]
