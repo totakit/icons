@@ -1,6 +1,6 @@
 {
   "name": "@totakit/icons",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Open-source icons with optical precision — 6 styles, one definition",
   "author": "totakit <hello@totakit.com>",
   "license": "MIT",
@@ -115,8 +115,7 @@
   ],
   "scripts": {
     "clean": "rm -rf dist *.tsbuildinfo",
-    "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run clean"
+    "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
     "react": ">=18"
